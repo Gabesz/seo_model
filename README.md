@@ -25,8 +25,7 @@ VALUES
 ('1', 'contact', 'Contact', 'Description of contact', 'lorem, ipsum', 'Contact', 'https://9to5google.files.wordpress.com/2014/10/google-building.jpg?w=704');
 </pre>
 
-<b>3, Usage</b>
-in your controller:
+<b>3, Use in your controller:</b>
 <pre>
 $this->load->model('Seo_model');
 $data = $this->Seo_model->get(get_class($this));
