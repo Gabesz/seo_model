@@ -2,7 +2,7 @@
 
 <h3>Howto</h3>
 
-1, First create table
+<b>1, First create table</b>
 <pre>
 CREATE TABLE IF NOT EXISTS `seo_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -16,14 +16,18 @@ CREATE TABLE IF NOT EXISTS `seo_data` (
   KEY `url` (`url`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
 </pre>
-2, Insert to table some data
+
+<b>2, Insert to table some data</b>
+<pre>
 INSERT INTO `seo_data` 
 (`id`, `url`, `title`, `description`, `keywords`, `og_title`, `og_image`) 
 VALUES 
 ('1', 'contact', 'Contact', 'Description of contact', 'lorem, ipsum', 'Contact', 'https://9to5google.files.wordpress.com/2014/10/google-building.jpg?w=704');
+</pre>
 
-3, Usage
+<b>3, Usage</b><br/>
 in your controller:
-
+<pre>
 $this->load->model('Seo_model');
 $data = $this->Seo_model->get(get_class($this));
+</pre>
