@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `seo_data` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
 </pre>
 
-<b>2, Insert to table some data</b>
+<b>2, Insert some data</b>
 <pre>
 INSERT INTO `seo_data` 
 (`id`, `url`, `title`, `description`, `keywords`, `og_title`, `og_image`) 
