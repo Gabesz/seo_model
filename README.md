@@ -1,6 +1,6 @@
 # PHP SEO MODEL FOR CODEIGNITER FW
 
-Howto
+<h3>Howto</h3>
 
 1, First create table
 CREATE TABLE IF NOT EXISTS `seo_data` (
