@@ -1,8 +1,9 @@
 # PHP SEO MODEL FOR CODEIGNITER FW
 
 <h3>Howto</h3>
-<code>
+
 1, First create table
+<pre>
 CREATE TABLE IF NOT EXISTS `seo_data` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `url` varchar(128) NOT NULL,
@@ -14,7 +15,7 @@ CREATE TABLE IF NOT EXISTS `seo_data` (
   PRIMARY KEY (`id`),
   KEY `url` (`url`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
-</code>
+</pre>
 2, Insert to table some data
 INSERT INTO `seo_data` 
 (`id`, `url`, `title`, `description`, `keywords`, `og_title`, `og_image`) 
