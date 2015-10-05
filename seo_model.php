@@ -3,7 +3,7 @@ class Seo_model extends CI_Model {
     /*
     * Get current SEO and META data
     *
-    * @param $url String the url of SEO (ex.: index, kategoriak)
+    * @param $url String the url of SEO (ex.: index, categories)
     * return formattad array of results
     */
     public function get($url = 'index'){
