@@ -27,7 +27,7 @@ class Seo_model extends CI_Model {
     * @param $data Array from get function
     * return array of title & meta data
     */
-    public function format($data){
+    public function format(array $data){
 
         $ret = array();
         extract($data);
